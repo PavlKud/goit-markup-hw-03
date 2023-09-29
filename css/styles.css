@@ -104,6 +104,7 @@ img{
   font-style: normal;
   display: flex;
   align-items: center;
+  gap: 40px;
   
 }
 
