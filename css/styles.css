@@ -45,7 +45,7 @@ img{
 .header-navigation {
   display: flex;
   align-items: center;
-  
+
 
 }
 
@@ -91,6 +91,8 @@ img{
 }
 
 .address-list {
+  display: flex;
+  gap 40px;
 }
 .address-list-item {
 }
@@ -113,6 +115,7 @@ img{
   background-color: #2e2f42;
   padding: 188px 0;
 }
+
 
 .main-title {
   color: #fff;
@@ -150,6 +153,7 @@ img{
 
 /**--------section 1-------*/
 .advant {
+
 }
 
 .advant-title {
