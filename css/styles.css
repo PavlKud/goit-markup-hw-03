@@ -42,15 +42,16 @@ img{
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
+  
 }
 .header-navigation {
-  display: inline-flex;
-  align-items: center;
-  padding: 24px 0;
+  display: flex;
   
   
-
+}
+.header-flex{
+  display: flex;
+  
 }
 
 .header-logo {
@@ -62,6 +63,9 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -71,7 +75,8 @@ img{
 
 .header-list {
   display: flex; 
-  gap: 24px; 
+  gap: 40px;
+
 }
 .header-list:last-child{
   margin-right: 332px;
@@ -97,7 +102,8 @@ img{
 
 .address {
   font-style: normal;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   
 }
 
@@ -167,6 +173,7 @@ img{
 
 /**--------section 1-------*/
 .advant {
+  
 
 }
 
