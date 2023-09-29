@@ -63,9 +63,9 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 24px 0;
   
 }
