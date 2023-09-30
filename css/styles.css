@@ -250,7 +250,7 @@ img {
   gap: 24px;
   width: calc((100% - 72px) / 4);
  
-
+ 
 }
 .team-list-item {
   background-color: #ffffff;
@@ -305,6 +305,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  
   
 
 }
