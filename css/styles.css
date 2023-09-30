@@ -4,8 +4,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
-.title-style{
-  color:#2e2f42;
+.title-style {
+  color: #2e2f42;
 }
 
 ul {
@@ -19,15 +19,19 @@ a {
   text-decoration: none;
   color: currentColor;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-img{
+img {
   display: block;
 }
-
 
 /*----------Header---------*/
 
@@ -37,37 +41,32 @@ img{
   margin: 0 auto;
   padding: 0 15px 0 15px;
   outline: 2px solid red;
-
 }
-
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  
-}
-.header-navigation {
-display: flex;
-align-items: center;
-margin-right: 332px;
 }
 
-.header-container{
-display: flex;  
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
+}
+
+.header-container {
+  display: flex;
 }
 
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  
+
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
   padding: 24px 0;
-  
 }
 
 .span {
@@ -75,12 +74,10 @@ display: flex;
 }
 
 .header-list {
-  display: flex; 
+  display: flex;
   gap: 40px;
   align-items: center;
   justify-content: center;
-  
-
 }
 
 .header-list-item {
@@ -94,9 +91,7 @@ display: flex;
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
-  
 }
-
 
 .header-list-link:hover,
 .header-list-link:focus {
@@ -105,14 +100,14 @@ display: flex;
 
 .address {
   font-style: normal;
- }
+}
 
 .address-list {
   display: flex;
   flex-direction: row;
   align-items: center;
 
-  gap: 40px;  
+  gap: 40px;
 }
 .address-list-item {
   padding: 24px 0;
@@ -137,6 +132,7 @@ display: flex;
 .main-page {
   background-color: #2e2f42;
   padding: 188px 0;
+  /* margin-bottom: 120px; */
 }
 .main-box {
   display: flex;
@@ -144,7 +140,6 @@ display: flex;
   align-items: center;
   gap: 48;
 }
-
 
 .main-title {
   color: #fff;
@@ -177,17 +172,14 @@ display: flex;
   border-radius: 4px;
 }
 
-.button:hover, 
+.button:hover,
 .button:focus {
   background-color: #404bbf;
-
 }
 
 /**--------section 1-------*/
-.advant {  
+.advant {
   padding: 120px 0;
-
-
 }
 
 .visually-hidden {
@@ -201,19 +193,21 @@ display: flex;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
- }
+}
 
 .advant-title {
-  }
-/* rugbiervbopehbiupebvebvherubvejbv p */
+  
+}
+
 .advant-list {
   display: flex;
   align-items: center;
   gap: 24px;
   margin-bottom: 240px;
+  
 }
 .advant-list-item {
-  
+  width: calc((100% - 72px) / 4);
 }
 
 .advant-list-title {
@@ -221,6 +215,7 @@ display: flex;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advant-list-article {
@@ -292,7 +287,7 @@ display: flex;
   gap: 48px 24px;
 }
 .portfolio-list-item {
-  }
+}
 
 .portfolio-list-title {
   color: #2e2f42;
