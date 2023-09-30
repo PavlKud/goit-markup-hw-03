@@ -32,7 +32,8 @@ img{
 /*----------Header---------*/
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px 0 15px;
   outline: 2px solid red;
@@ -45,27 +46,24 @@ img{
   
 }
 .header-navigation {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
+margin-right: 332px;
 }
 
-.header-flex{
-  display: flex;
-  
+.header-container{
+display: flex;  
 }
 
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 24px 0;
   
 }
@@ -77,13 +75,13 @@ img{
 .header-list {
   display: flex; 
   gap: 40px;
+  align-items: center;
+  justify-content: center;
+  
 
 }
-.header-list:last-child{
-  margin-right: 332px;
-}
+
 .header-list-item {
-  padding: 24px 0;
 }
 
 .header-list-link {
@@ -103,18 +101,14 @@ img{
 
 .address {
   font-style: normal;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  
-}
+ }
 
 .address-list {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  gap: 40px;
+  align-items: center;
 
-  
+  gap: 40px;  
 }
 .address-list-item {
   padding: 24px 0;
