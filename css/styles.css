@@ -207,7 +207,7 @@ img {
   
 }
 .advant-list-item {
-  width: calc((100% - 72px) / 4);
+
   
 }
 
@@ -248,7 +248,7 @@ img {
 .team-list {
   display: flex;
   align-items: center;
-  /* gap: 24px; */
+  gap: 24px;
   width:  calc((100% - 72px) / 4);
  
  
