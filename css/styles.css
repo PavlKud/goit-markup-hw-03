@@ -340,9 +340,11 @@ img {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0 100px;
 }
 
 .footer-logo {
+  display: inline-block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -350,6 +352,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 16px;
 }
 
 .span-footer {
@@ -362,4 +366,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  width: 264px
 }
