@@ -241,9 +241,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;  
 
-  margin-bottom: 72px;
-  border-radius: 0px 0px 25px 25px;
-
+  margin-bottom: 72px; 
 }
 
 .team-list {
@@ -256,7 +254,7 @@ img {
 }
 .team-list-item {
   background-color: #ffffff;
-  border-radius: 0px 0px 25px 25px; 
+  border-radius: 0px 0px 4px 4px; 
   }
 
 .position { 
