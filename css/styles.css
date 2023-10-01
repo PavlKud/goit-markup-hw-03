@@ -51,15 +51,11 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;   
-  /* margin: 0 auto;   */
+  margin-right: auto;  
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
-  
- 
-
   
 }
 
