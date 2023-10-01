@@ -50,12 +50,15 @@ img {
 
 .header-navigation {
   display: flex;
-  align-items: center;
-  margin-right: 332px;
+  align-items: center;  
+  margin: 0 auto;  
 }
 
 .header-container {
   display: flex;
+ 
+
+  
 }
 
 .header-logo {
@@ -104,12 +107,11 @@ img {
 }
 
 .address-list {
-  display: flex;
-  flex-direction: row;
+  display: flex;  
   align-items: center;
-
   gap: 40px;
 }
+
 .address-list-item {
   padding: 24px 0;
 }
@@ -133,14 +135,9 @@ img {
 .main-page {
   background-color: #2e2f42;
   padding: 188px 0;
-  /* margin-bottom: 120px; */
+  
 }
-.main-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48;
-}
+
 
 .main-title {
   color: #fff;
@@ -149,11 +146,13 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 120px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 
   text-align: center;
   max-width: 496px;
-  padding-bottom: 48px;
+  
 }
 
 .button {
@@ -171,6 +170,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover,
