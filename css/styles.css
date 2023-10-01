@@ -50,12 +50,14 @@ img {
 
 .header-navigation {
   display: flex;
-  align-items: center;  
-  margin: 0 auto;  
+  align-items: center;   
+  /* margin: 0 auto;   */
 }
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+  
  
 
   
